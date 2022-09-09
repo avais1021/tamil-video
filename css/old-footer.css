@@ -1,0 +1,176 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */ /*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=4da405b270e364ad54ef2add6e891498)
+ * Config saved to config.json and https://gist.github.com/4da405b270e364ad54ef2add6e891498
+ */ /*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/* html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%} */
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.footer .mycontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .nav-footer {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .search-list{
+    display: none;
+  }
+  .footer-social {
+    padding: 35px 25px 25px !important;
+  }
+}
+.nav-footer ul {
+  margin-left: unset;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-unstyled li span,
+.footer p span,
+.nav-footer-item h3 {
+  color: #fff500;
+  /* font-family: "latobold"; */
+  font-size: 20px;
+}
+
+.footer-social p span a {
+  font-size: 16px;
+  color: #fff500;
+}
+@media (max-width: 400px) {
+  .footer-social p span a {
+    font-size: 14px;
+  }
+}
+.footer p span.ult-style {
+  text-decoration: none;
+  color: inherit;
+}
+.list-unstyled li span.ult-style {
+  color: #fff !important;
+}
+.footer-social {
+  background-color: #3c3c3c;
+  padding: 35px 40px 25px;
+}
+.footer-social ul {
+  padding-left: 0;
+}
+.footer-social ul li a {
+  color: #969696;
+  text-decoration: underline;
+}
+.fF {
+  padding: 35px 0 25px;
+}
+.copyrightn p {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 27px;
+  margin-bottom: 0;
+  color: #969696;
+}
+.footer-social ul li {
+  display: inline-block;
+  text-align: left;
+  margin: 0 15px 0 0;
+}
+.footer p span {
+  font-size: 16px;
+  text-decoration: underline;
+}
+.footer p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.footer {
+  background-color: #2b2b2b;
+  width: 100%;
+  float: left;
+}
+.footer-social a {
+  color: #fff;
+  font-size: 25px;
+  margin-right: 21px;
+}
+.list-unstyled a,
+.privacy li a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 2;
+  margin-right: 0;
+  text-decoration: none;
+}
+.list-unstyled li:first-child {
+  margin-bottom: 7px;
+}
+
+@media (max-width: 768px) {
+  .nav-footer {
+    display: block;
+  }
+  .nav-footer .navFooter h3 {
+    cursor: pointer;
+  }
+  .nav-footer ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+  }
+  .nav-footer .navFooter h3:after {
+    content: "\002B";
+    width: 25px;
+    float: right;
+  }
+  .nav-footer .navFooter.open h3:after {
+    content: "\2212";
+    width: 25px;
+  }
+  .nav-footer .navFooter.open ul {
+    height: auto;
+    max-height: 500px;
+    transition: max-height 1s ease-in !important;
+  }
+  .nav-footer-item {
+    border-bottom: 1px solid #3c3c3c;
+    margin: 0 15px;
+  }
+  .list-unstyled a {
+    color: #bbb;
+  }
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .list-unstyled a {
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 767px) {
+  .mblpadding {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1900px) {
+  .mycontainer {
+    width: 1590px;
+  }
+}
